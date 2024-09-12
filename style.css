@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(194, 237, 223);
+    text-align: center;
+}
+
+#insta {
+    height: 3vmin;
+    width: 3vmin;
+}
+
+.footer {
+    width: 100vw;
+    height: 10vmin;
+    font-size: 3vmin;
+    text-align: center;
+    background-color: #2a2121;
+    position: fixed;
+    bottom: 0%;
+    color: aliceblue;
+    padding-top: 2vmin;
+
+
+}
+
+.container {
+    margin: 10px;
+    height: 70wv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.btn {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10%;
+    border: none;
+    box-shadow: 0 0 8px rgb(19, 12, 12);
+    font-size: 8vmin;
+    background-color: #d08a8a;
+    color: black;
+}
+
+#restart {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #1875e0;
+}
+
+#reset {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #1875e0;
+}
+
+.winBox {
+    height: 90vmin;
+    background-color: #d08a8a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+
+}
+
+.msg {
+    color: black;
+    padding: 1vmin;
+    font-size: 9vmin;
+}
